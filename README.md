@@ -28,7 +28,7 @@ RFM (Recency, Frequency, Monetary) analysis is a customer segmentation method th
 - Segmented customers into RFM groups  
 - Visualized insights in Power BI  
 
-## Key insides
+## Key Insights
 
 1) During the analysis, I identified that Frequency is not a suitable metric for this dataset. Over ~90% of customers made only one purchase, resulting in extremely low variability of this feature. Because of this, segmentation using SQL NTILE() on Frequency does not provide meaningful differentiation between customer groups. To ensure the analysis remains informative and actionable, I decided to focus on Recency and Monetary (RM segmentation), which better capture customer behavior and value distribution in this dataset.  
 
